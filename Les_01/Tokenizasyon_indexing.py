@@ -5,6 +5,8 @@ Coding by:
     Version: 1.0
     Description: This code is about how to build a recruitment system with tensorflow and sklearn
     Usage: python Tokenizasyon_indexing.py UTF-8
+    For more information: https://github.com/eyyuptoprak
+    For more information: eyup.tp@hotmail.com
 """
 
 # Recruitment with tensorflow and sklearn lesson_01
@@ -155,15 +157,25 @@ def main():
             padded_sequance=SequancePadding(sequance,max_length)
 
             tfidf_matrix=TF_IDFHesaplama(tokenized_tex,word_indeks)
-
+            print("**************\tTokenization Texts\t**************")
             print("Tokenized Metin: \n",tokenized_tex)
+            print("******************************************************************************************")
+            print("**************\tWord Index Texts\t**************")
             print("Word Index: \n",word_indeks)
+            print("******************************************************************************************")
+            print("**************\tSequance Texts\t**************")
             print("Sequance: \n",sequance)
+            print("******************************************************************************************")
+            print("**************\tPadded Sequance Texts\t**************")
             print("Padded Sequance: \n",padded_sequance)
+            print("******************************************************************************************")
+            print("**************\tTF-IDF Matrix Texts\t**************")
             print("TF-IDF Matrix: \n",tfidf_matrix)
+            print("******************************************************************************************")
         else:
-
+            print("**************\tIndexing and Tokenization Failed\t**************")
             print("indexing and tokenization failed")
+            print("******************************************************************************************")
 
     elif choice==2:
 
@@ -190,18 +202,27 @@ def main():
 
             tfidf_matrix=TF_IDFHesaplama(tokenized_tex,word_indeks)
 
+            print("**************\tTokenized Texts\t**************")
             print("Tokenized Metin: \n",tokenized_tex)
+            print("******************************************************************************************")
 
+            print("**************\tWord Index Texts\t**************")
             print("Word Index: \n",word_indeks)
+            print("******************************************************************************************")
 
+            print("**************\tSequance Texts\t**************")
             print("Sequance: \n",sequance)
+            print("******************************************************************************************")
 
+            print("**************\tPadded Sequance Texts\t**************")
             print("Padded Sequance: \n",padded_sequance)
+            print("******************************************************************************************")
 
+            print("**************\tTF-IDF Matrix Texts\t**************")
             print("TF-IDF Matrix: \n",tfidf_matrix)
-
+            print("******************************************************************************************")
         else:
-
+            print("**********************************************************************\tIndexing and Tokenization Failed\t**********************************************************************")
             print("indexing and tokenization failed")
 
         print("Tokenized Metin: \n",tokenized_tex)
