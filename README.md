@@ -12,8 +12,8 @@ Bu eğitim serisi, NLP'nin temel kavramlarından başlayarak ileri seviye uygula
 - Metin ön işleme teknikleri
 - Tokenizasyon işlemleri
 - Kelime indeksleme
-- TF-IDF vektörizasyonu (yakında)
-- Cosine benzerlik hesaplamaları (yakında)
+- TF-IDF vektörizasyonu 
+- Cosine benzerlik hesaplamaları 
 
 ## 🛠️ Kullanılan Teknolojiler
 
